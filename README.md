@@ -72,7 +72,7 @@ Execution regenerates the model, results, validation predictions and figures, an
 
 The recorded fresh-kernel verification completed **20/20 code cells without error outputs**. Reloaded holdout probabilities matched exactly. Checks also exercised missing numeric inputs, unseen categorical values, weather boundaries and overlap, exact intervention capacity, and SHAP reconstruction.
 
-## Limitations and submission status
+## Limitations
 
 - Random-split validation does not establish performance on future periods or entirely new routes. Pickup-time availability of supplied historical/weather attributes remains a documented assumption.
 - Weather coverage is incomplete near the end of the shipment period. Observational associations, route clusters and SHAP contributions do not establish causal effects.
